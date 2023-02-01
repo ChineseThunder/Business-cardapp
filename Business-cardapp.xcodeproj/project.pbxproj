@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E90CED6298A584D00F292F9 /* Business_cardappApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E90CED5298A584D00F292F9 /* Business_cardappApp.swift */; };
+		4E90CED8298A584D00F292F9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E90CED7298A584D00F292F9 /* ContentView.swift */; };
+		4E90CEDA298A584E00F292F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E90CED9298A584E00F292F9 /* Assets.xcassets */; };
+		4E90CEDD298A584E00F292F9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E90CEDC298A584E00F292F9 /* Preview Assets.xcassets */; };
+		4E90CEE7298A584E00F292F9 /* Business_cardappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E90CEE6298A584E00F292F9 /* Business_cardappTests.swift */; };
+		4E90CEF1298A584E00F292F9 /* Business_cardappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E90CEF0298A584E00F292F9 /* Business_cardappUITests.swift */; };
+		4E90CEF3298A584E00F292F9 /* Business_cardappUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E90CEF2298A584E00F292F9 /* Business_cardappUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4E90CEE3298A584E00F292F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E90CECA298A584D00F292F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E90CED1298A584D00F292F9;
+			remoteInfo = "Business-cardapp";
+		};
+		4E90CEED298A584E00F292F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E90CECA298A584D00F292F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E90CED1298A584D00F292F9;
+			remoteInfo = "Business-cardapp";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4E90CED2298A584D00F292F9 /* Business-cardapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Business-cardapp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E90CED5298A584D00F292F9 /* Business_cardappApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Business_cardappApp.swift; sourceTree = "<group>"; };
+		4E90CED7298A584D00F292F9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4E90CED9298A584E00F292F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4E90CEDC298A584E00F292F9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4E90CEE2298A584E00F292F9 /* Business-cardappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Business-cardappTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E90CEE6298A584E00F292F9 /* Business_cardappTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Business_cardappTests.swift; sourceTree = "<group>"; };
+		4E90CEEC298A584E00F292F9 /* Business-cardappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Business-cardappUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E90CEF0298A584E00F292F9 /* Business_cardappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Business_cardappUITests.swift; sourceTree = "<group>"; };
+		4E90CEF2298A584E00F292F9 /* Business_cardappUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Business_cardappUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4E90CECF298A584D00F292F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E90CEDF298A584E00F292F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E90CEE9298A584E00F292F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E90CEC9298A584D00F292F9 = {
+			isa = PBXGroup;
+			children = (
+				4E90CED4298A584D00F292F9 /* Business-cardapp */,
+				4E90CEE5298A584E00F292F9 /* Business-cardappTests */,
+				4E90CEEF298A584E00F292F9 /* Business-cardappUITests */,
+				4E90CED3298A584D00F292F9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4E90CED3298A584D00F292F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E90CED2298A584D00F292F9 /* Business-cardapp.app */,
+				4E90CEE2298A584E00F292F9 /* Business-cardappTests.xctest */,
+				4E90CEEC298A584E00F292F9 /* Business-cardappUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4E90CED4298A584D00F292F9 /* Business-cardapp */ = {
+			isa = PBXGroup;
+			children = (
+				4E90CED5298A584D00F292F9 /* Business_cardappApp.swift */,
+				4E90CED7298A584D00F292F9 /* ContentView.swift */,
+				4E90CED9298A584E00F292F9 /* Assets.xcassets */,
+				4E90CEDB298A584E00F292F9 /* Preview Content */,
+			);
+			path = "Business-cardapp";
+			sourceTree = "<group>";
+		};
+		4E90CEDB298A584E00F292F9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4E90CEDC298A584E00F292F9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4E90CEE5298A584E00F292F9 /* Business-cardappTests */ = {
+			isa = PBXGroup;
+			children = (
+				4E90CEE6298A584E00F292F9 /* Business_cardappTests.swift */,
+			);
+			path = "Business-cardappTests";
+			sourceTree = "<group>";
+		};
+		4E90CEEF298A584E00F292F9 /* Business-cardappUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4E90CEF0298A584E00F292F9 /* Business_cardappUITests.swift */,
+				4E90CEF2298A584E00F292F9 /* Business_cardappUITestsLaunchTests.swift */,
+			);
+			path = "Business-cardappUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4E90CED1298A584D00F292F9 /* Business-cardapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E90CEF6298A584E00F292F9 /* Build configuration list for PBXNativeTarget "Business-cardapp" */;
+			buildPhases = (
+				4E90CECE298A584D00F292F9 /* Sources */,
+				4E90CECF298A584D00F292F9 /* Frameworks */,
+				4E90CED0298A584D00F292F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Business-cardapp";
+			productName = "Business-cardapp";
+			productReference = 4E90CED2298A584D00F292F9 /* Business-cardapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4E90CEE1298A584E00F292F9 /* Business-cardappTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E90CEF9298A584E00F292F9 /* Build configuration list for PBXNativeTarget "Business-cardappTests" */;
+			buildPhases = (
+				4E90CEDE298A584E00F292F9 /* Sources */,
+				4E90CEDF298A584E00F292F9 /* Frameworks */,
+				4E90CEE0298A584E00F292F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E90CEE4298A584E00F292F9 /* PBXTargetDependency */,
+			);
+			name = "Business-cardappTests";
+			productName = "Business-cardappTests";
+			productReference = 4E90CEE2298A584E00F292F9 /* Business-cardappTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4E90CEEB298A584E00F292F9 /* Business-cardappUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E90CEFC298A584E00F292F9 /* Build configuration list for PBXNativeTarget "Business-cardappUITests" */;
+			buildPhases = (
+				4E90CEE8298A584E00F292F9 /* Sources */,
+				4E90CEE9298A584E00F292F9 /* Frameworks */,
+				4E90CEEA298A584E00F292F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E90CEEE298A584E00F292F9 /* PBXTargetDependency */,
+			);
+			name = "Business-cardappUITests";
+			productName = "Business-cardappUITests";
+			productReference = 4E90CEEC298A584E00F292F9 /* Business-cardappUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4E90CECA298A584D00F292F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					4E90CED1298A584D00F292F9 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					4E90CEE1298A584E00F292F9 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 4E90CED1298A584D00F292F9;
+					};
+					4E90CEEB298A584E00F292F9 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 4E90CED1298A584D00F292F9;
+					};
+				};
+			};
+			buildConfigurationList = 4E90CECD298A584D00F292F9 /* Build configuration list for PBXProject "Business-cardapp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4E90CEC9298A584D00F292F9;
+			productRefGroup = 4E90CED3298A584D00F292F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4E90CED1298A584D00F292F9 /* Business-cardapp */,
+				4E90CEE1298A584E00F292F9 /* Business-cardappTests */,
+				4E90CEEB298A584E00F292F9 /* Business-cardappUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4E90CED0298A584D00F292F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E90CEDD298A584E00F292F9 /* Preview Assets.xcassets in Resources */,
+				4E90CEDA298A584E00F292F9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E90CEE0298A584E00F292F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E90CEEA298A584E00F292F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E90CECE298A584D00F292F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E90CED8298A584D00F292F9 /* ContentView.swift in Sources */,
+				4E90CED6298A584D00F292F9 /* Business_cardappApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E90CEDE298A584E00F292F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E90CEE7298A584E00F292F9 /* Business_cardappTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E90CEE8298A584E00F292F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E90CEF3298A584E00F292F9 /* Business_cardappUITestsLaunchTests.swift in Sources */,
+				4E90CEF1298A584E00F292F9 /* Business_cardappUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4E90CEE4298A584E00F292F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E90CED1298A584D00F292F9 /* Business-cardapp */;
+			targetProxy = 4E90CEE3298A584E00F292F9 /* PBXContainerItemProxy */;
+		};
+		4E90CEEE298A584E00F292F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E90CED1298A584D00F292F9 /* Business-cardapp */;
+			targetProxy = 4E90CEED298A584E00F292F9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4E90CEF4298A584E00F292F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4E90CEF5298A584E00F292F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4E90CEF7298A584E00F292F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Business-cardapp/Preview Content\"";
+				DEVELOPMENT_TEAM = 227UWW667T;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Simonig.Business-cardapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4E90CEF8298A584E00F292F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Business-cardapp/Preview Content\"";
+				DEVELOPMENT_TEAM = 227UWW667T;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Simonig.Business-cardapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4E90CEFA298A584E00F292F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 227UWW667T;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Simonig.Business-cardappTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Business-cardapp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Business-cardapp";
+			};
+			name = Debug;
+		};
+		4E90CEFB298A584E00F292F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 227UWW667T;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Simonig.Business-cardappTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Business-cardapp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Business-cardapp";
+			};
+			name = Release;
+		};
+		4E90CEFD298A584E00F292F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 227UWW667T;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Simonig.Business-cardappUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Business-cardapp";
+			};
+			name = Debug;
+		};
+		4E90CEFE298A584E00F292F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 227UWW667T;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Simonig.Business-cardappUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Business-cardapp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4E90CECD298A584D00F292F9 /* Build configuration list for PBXProject "Business-cardapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E90CEF4298A584E00F292F9 /* Debug */,
+				4E90CEF5298A584E00F292F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E90CEF6298A584E00F292F9 /* Build configuration list for PBXNativeTarget "Business-cardapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E90CEF7298A584E00F292F9 /* Debug */,
+				4E90CEF8298A584E00F292F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E90CEF9298A584E00F292F9 /* Build configuration list for PBXNativeTarget "Business-cardappTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E90CEFA298A584E00F292F9 /* Debug */,
+				4E90CEFB298A584E00F292F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E90CEFC298A584E00F292F9 /* Build configuration list for PBXNativeTarget "Business-cardappUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E90CEFD298A584E00F292F9 /* Debug */,
+				4E90CEFE298A584E00F292F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4E90CECA298A584D00F292F9 /* Project object */;
+}
